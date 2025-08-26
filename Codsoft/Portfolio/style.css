@@ -1,0 +1,79 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #0078d7;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  color: #0078d7;
+}
+
+/* About Section */
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Skills Section */
+#skills ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Projects */
+.project {
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 4px solid #0078d7;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+#contact a {
+  color: #0078d7;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
